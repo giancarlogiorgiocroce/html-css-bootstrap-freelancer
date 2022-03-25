@@ -11,8 +11,19 @@
     flex-shrink: 0;
 }
 
-.invisible{
+.my_invisible{
     display: none;
+}
+
+/* Colori background */
+.bg-black{
+    background-color: var(--bg-black);
+}
+.bg-green{
+    background-color: var(--bg-green);
+}
+.bg-blue{
+    background-color: var(--bg-blue);
 }
 
 /* Debug */

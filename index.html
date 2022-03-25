@@ -21,20 +21,26 @@
 
 <body>
 
-    <header class="h100 flex">
+    <header class="debug h100 bg-black flex">
+
         <nav class="debug left">
             <a href="#">
                 start bootstrap
             </a>
         </nav>
+
         <nav class="debug right">
-            <button>PORTFOLIO</button>
-            <button>ABOUT</button>
-            <button>CONTACT</button>
+            <button class="my_invisible">
+                H
+            </button> 
+            <button class="visible">PORTFOLIO</button>
+            <button class="visible">ABOUT</button>
+            <button class="visible">CONTACT</button>
         </nav>
+
     </header>
 
-    <div class="debug h500 jumbo flex">
+    <div class="debug h500 jumbo bg-green flex">
         <img src="#" alt="omino che ride">
         <h1>Titolone</h1>
         <h3>Titolino</h3>
@@ -66,24 +72,47 @@
                 </div>
             </div>
         </section>
-        <section class="debug flex">
+        <section class="debug about bg-green flex">
             <h1>about</h1>
             <div class="debug container">
                 <div class="debug row">
-                    <div class="debug h100 col-xs-12 col-md-6"></div>
-                    <div class="debug h100 col-xs-12 col-md-6"></div>
+                    <div class="debug h100 col-xs-12 col-md-6">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, ipsum.
+                    </div>
+                    <div class="debug h100 col-xs-12 col-md-6">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, ipsum.
+                    </div>
                 </div>
             </div>
             <button>
                 Download
             </button>
         </section>
-        <section class="debug flex"></section>
+        <section class="debug contact-me flex">
+            <h1>contact me</h1>
+            <div class="form">
+                <p>cose</p>
+                <p>cose</p>
+                <p>cose</p>
+                <p>cose</p>
+                <p>cose</p>
+            </div>
+        </section>
     </main>
 
     <footer class="debug">
-        <div class="debug h100 footer_up"></div>
-        <div class="debug h100 footer_down"></div>
+        <div class="debug footer-up bg-blue">
+            <div class="debug container">
+                <div class="debug row">
+                    <div class="debug h100 col-xs-12 col-md-4"></div>
+                    <div class="debug h100 col-xs-12 col-md-4"></div>
+                    <div class="debug h100 col-xs-12 col-md-4"></div>
+                </div>
+            </div>
+        </div>
+        <div class="debug footer-down bg-black flex">
+            <p>copyright</p>
+        </div>
     </footer>
 
 </body>
