@@ -1,7 +1,46 @@
 /*
-    MAIN
+    HEADER
+*/
+header{
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: var(--bg-black);
+
+    text-transform: uppercase;
+}
+/*
+    /HEADER
 */
 
+
+/*
+    JUMBO
+*/
+.jumbo{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/*
+    /JUMBO
+*/
+
+
+/*
+    MAIN
+*/
+section{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* SECTION PORTFOLIO */
+
+/* SECTION ABOUT */
+
+/* SECTION CONTACT ME */
 /*
     /MAIN
 */

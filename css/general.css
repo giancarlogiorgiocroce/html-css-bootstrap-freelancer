@@ -3,3 +3,19 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+:root{
+    --bg-black: rgb(44, 62, 80);
+    --bg-green: rgb(26, 188, 156);
+    --bg-blue: rgb(58, 84, 109);
+}
+
+h1,
+h3{
+    text-transform: uppercase;
+}
+
+a,
+button{
+    text-decoration: none;
+}
