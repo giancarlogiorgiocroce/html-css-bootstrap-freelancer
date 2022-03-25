@@ -1,0 +1,32 @@
+/* Impaginazione */
+.position-relative{
+    position: relative;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex-static{
+    flex-shrink: 0;
+}
+
+.invisible{
+    display: none;
+}
+
+/* Debug */
+.debug{
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid white;
+}
+
+.h100{
+    height: 100px;
+}
+.h300{
+    height: 300px;
+}
+.h500{
+    height: 500px;
+}
