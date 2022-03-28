@@ -1,8 +1,0 @@
-@media screen and (max-width:570px) {
-    nav.right button.visible{
-        display: none;
-    }
-    nav.right button.my_invisible{
-        display: inline-block;
-    }
-}

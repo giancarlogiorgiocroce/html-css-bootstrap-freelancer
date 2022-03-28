@@ -5,8 +5,7 @@
 
 .my-container{
     width: 70vw;
-    justify-self: center;
-    align-self: center;
+    margin: 0 auto;
 }
 
 .my-btn{
@@ -29,3 +28,10 @@
 
 /* Debug */
 /* .debug{    background-color: rgba(0, 255, 0, 0.2);    border: 1px solid white;} */
+.h500{
+    height: 500px;
+}
+
+.h100{
+    height: 100px;
+}

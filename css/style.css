@@ -97,10 +97,6 @@ input:placeholder-shown{
 #contact .my-btn:hover{
     background-color: rgb(31, 131, 107);
 }
-
-/* #contact .my-btn{
-
-} */
 /*
     /MAIN
 */
@@ -112,6 +108,26 @@ input:placeholder-shown{
 .footer-down{
     justify-content: center;
     align-items: center;
+}
+
+.footer-up{
+    padding: 50px 0 30px;
+}
+
+.my-icon-container{
+    width: 30px;
+    height: 30px;
+    margin: 0 2%;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+#green-link{
+    color: var(--bg-green);
+}
+
+.footer-down{
+    padding: 30px 0 15px
 }
 /*
     /FOOTER
