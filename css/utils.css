@@ -3,20 +3,17 @@
     position: relative;
 }
 
-.flex{
-    display: flex;
-}
-
 .flex-static{
     flex-shrink: 0;
 }
 
-.my_invisible{
-    display: none;
+.my-white-bold{
+    color: white;
+    font-weight: 600;
 }
 
 /* Colori background */
-.bg-black{
+.my-bg-black{
     background-color: var(--bg-black);
 }
 .bg-green{
@@ -27,10 +24,10 @@
 }
 
 /* Debug */
-.debug{
+/* .debug{
     background-color: rgba(0, 255, 0, 0.2);
     border: 1px solid white;
-}
+} */
 
 .h100{
     height: 100px;

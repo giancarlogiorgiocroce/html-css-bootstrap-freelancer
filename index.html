@@ -21,33 +21,39 @@
 
 <body>
 
-    <header class="debug h100 bg-black flex">
+    <header class="my-bg-black d-flex">
 
-        <nav class="debug left">
-            <a href="#">
-                start bootstrap
-            </a>
-        </nav>
+        <div class="debug container">
+            <nav class="debug row">
+                <div class="debug col-10 col-md-6">
+                    <a class="h4 my-white-bold" href="#">
+                        start bootstrap
+                    </a>
+                </div>
 
-        <nav class="debug right">
-            <button class="my_invisible">
-                H
-            </button> 
-            <button class="visible">PORTFOLIO</button>
-            <button class="visible">ABOUT</button>
-            <button class="visible">CONTACT</button>
-        </nav>
+                <div class="debug col-6 d-none d-md-flex flex-row-reverse">
+                    <a href="#portfolio" class="btn my-white-bold">CONTACT</a>
+                    <a href="#about" class="btn my-white-bold">ABOUT</a>
+                    <a href="#contact" class="btn my-white-bold">PORTFOLIO</a>
+                </div>
+
+                <a href="#" class="debug col-2 d-md-none flex-row-reverse">
+                    <i class="fa-solid fa-bars my-white-bold"></i>
+                </a>
+
+            </nav>
+        </div>
 
     </header>
 
-    <div class="debug h500 jumbo bg-green flex">
+    <div class="debug h500 jumbo bg-green d-flex ">
         <img src="#" alt="omino che ride">
         <h1>Titolone</h1>
         <h3>Titolino</h3>
     </div>
 
     <main class="debug">
-        <section class="debug portfolio flex">
+        <section class="debug portfolio d-flex">
             <h1>Portfolio</h1>
             <div class="debug container">
                 <div class="debug row">
@@ -72,7 +78,7 @@
                 </div>
             </div>
         </section>
-        <section class="debug about bg-green flex">
+        <section class="debug about bg-green d-flex">
             <h1>about</h1>
             <div class="debug container">
                 <div class="debug row">
@@ -88,7 +94,7 @@
                 Download
             </button>
         </section>
-        <section class="debug contact-me flex">
+        <section class="debug contact-me d-flex">
             <h1>contact me</h1>
             <div class="form">
                 <p>cose</p>
