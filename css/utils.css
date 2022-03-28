@@ -1,4 +1,8 @@
 /* Impaginazione */
+.position-relative{
+    position: relative;
+}
+
 .my-bold{
     font-weight: 600;
 }
@@ -15,6 +19,10 @@
     margin-top: 20px;
 }
 
+.space{
+    padding: 12px;
+}
+
 /* Colori background */
 .my-bg-black{
     background-color: var(--bg-black);
@@ -27,11 +35,6 @@
 }
 
 /* Debug */
-/* .debug{    background-color: rgba(0, 255, 0, 0.2);    border: 1px solid white;} */
 .h500{
     height: 500px;
-}
-
-.h100{
-    height: 100px;
 }
