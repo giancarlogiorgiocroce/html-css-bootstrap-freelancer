@@ -53,32 +53,25 @@
         <h5 class="my-white-bold">graphic artist - web designer - illustrator</h5>
     </div>
 
+    <!-- E' una cafonata mettere la classe col direattamente ad un img?
+    Sembra funzionare tutto anche senza scrivere ogni volta il div.
+    Probabilmente è un orripilio semantico  -->
     <main class="debug">
-        <section id="portfolio" class="debug portfolio d-flex">
+
+        <section id="portfolio" class="debug d-flex">
             <h1>Portfolio</h1>
             <div class="debug container">
-                <div class="debug row">
-                    <div class="debug h100 col-xs-12 col-md-6 col-lg-4">
-                        <img src="#" alt="casa nel bosco">
-                    </div>
-                    <div class="debug h100 col-xs-12 col-md-6 col-lg-4">
-                        <img src="#" alt="dolce glassato">
-                    </div>
-                    <div class="debug h100 col-xs-12 col-md-6 col-lg-4">
-                        <img src="#" alt="tendone circo">
-                    </div>
-                    <div class="debug h100 col-xs-12 col-md-6 col-lg-4">
-                        <img src="#" alt="joystick">
-                    </div>
-                    <div class="debug h100 col-xs-12 col-md-6 col-lg-4">
-                        <img src="#" alt="cassaforte">
-                    </div>
-                    <div class="debug h100 col-xs-12 col-md-6 col-lg-4">
-                        <img src="#" alt="sottomarino">
-                    </div>
+                <div class="debug row d-flex justify-content-center">
+                    <img class="col" src="img/cabin.png" alt="casa nel bosco">
+                    <img class="col" src="img/cake.png" alt="dolce glassato">
+                    <img class="col" src="img/circus.png" alt="tendone circo">
+                    <img class="col" src="img/game.png" alt="joystick">
+                    <img class="col" src="img/safe.png" alt="cassaforte">
+                    <img class="col" src="img/submarine.png" alt="sottomarino">
                 </div>
             </div>
         </section>
+
         <section id="about" class="debug about bg-green d-flex">
             <h1>about</h1>
             <div class="debug container">
@@ -95,6 +88,7 @@
                 Download
             </button>
         </section>
+        
         <section id="contact" class="debug contact-me d-flex">
             <h1>contact me</h1>
             <div class="form">

@@ -26,7 +26,7 @@ header{
 }
 
 .jumbo img{
-    width: 200px;
+    width: 250px;
 }
 
 .jumbo>*{
@@ -50,6 +50,11 @@ section{
 }
 
 /* SECTION PORTFOLIO */
+#portfolio img{
+    width: 400px;
+    padding: 12px;
+    border-radius: 20px;
+}
 
 /* SECTION ABOUT */
 
