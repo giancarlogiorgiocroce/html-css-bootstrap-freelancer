@@ -7,9 +7,15 @@
     flex-shrink: 0;
 }
 
-.my-white-bold{
-    color: white;
+.my-bold{
     font-weight: 600;
+}
+
+.my-btn{
+    border: 1px solid white;
+    border-radius: 5px;
+
+    margin-top: 20px;
 }
 
 /* Colori background */

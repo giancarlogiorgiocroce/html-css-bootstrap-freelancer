@@ -57,6 +57,14 @@ section{
 }
 
 /* SECTION ABOUT */
+#about button:hover{
+    background-color: white;
+}
+
+#about button:hover i,
+#about button:hover span{
+    color: black;
+}
 
 /* SECTION CONTACT ME */
 div.form{

@@ -26,19 +26,19 @@
         <div class="debug container">
             <nav class="debug row">
                 <div class="debug col-10 col-md-6">
-                    <a class="h4 my-white-bold" href="#">
+                    <a class="h4 my-bold text-white" href="#">
                         start bootstrap
                     </a>
                 </div>
 
                 <div class="debug col-6 d-none d-md-flex flex-row-reverse">
-                    <a href="#contact" class="btn my-white-bold">CONTACT</a>
-                    <a href="#about" class="btn my-white-bold">ABOUT</a>
-                    <a href="#portfolio" class="btn my-white-bold">PORTFOLIO</a>
+                    <a href="#contact" class="btn my-bold text-white">CONTACT</a>
+                    <a href="#about" class="btn my-bold text-white">ABOUT</a>
+                    <a href="#portfolio" class="btn my-bold text-white">PORTFOLIO</a>
                 </div>
 
                 <a href="#" class="debug col-2 d-md-none flex-row-reverse">
-                    <i class="fa-solid fa-bars my-white-bold"></i>
+                    <i class="fa-solid fa-bars my-bold text-white"></i>
                 </a>
 
             </nav>
@@ -48,18 +48,19 @@
 
     <div class="debug h500 jumbo bg-green d-flex ">
         <img src="img/avatar.svg" alt="omino che ride">
-        <h1 class="my-white-bold">start bootstrap</h1>
-        <p class="h2 my-white-bold">--- &star; ---</p>
-        <h5 class="my-white-bold">graphic artist - web designer - illustrator</h5>
+        <h1 class="my-bold">start bootstrap</h1>
+        <p class="h2 my-bold">--- &star; ---</p>
+        <h5 class="my-bold">graphic artist - web designer - illustrator</h5>
     </div>
 
-    <!-- E' una cafonata mettere la classe col direattamente ad un img?
-    Sembra funzionare tutto anche senza scrivere ogni volta il div.
-    Probabilmente è un orripilio semantico  -->
     <main class="debug">
 
+        <!-- E' una cafonata mettere la classe col direattamente ad un img?
+        Sembra funzionare tutto anche senza scrivere ogni volta il div.
+        Probabilmente è un orripilio semantico  -->
+
         <section id="portfolio" class="debug d-flex">
-            <h1>Portfolio</h1>
+            <h1 class="my-bold text-dark">Portfolio</h1>
             <div class="debug container">
                 <div class="debug row d-flex justify-content-center">
                     <img class="col" src="img/cabin.png" alt="casa nel bosco">
@@ -70,22 +71,23 @@
                     <img class="col" src="img/submarine.png" alt="sottomarino">
                 </div>
             </div>
-        </section>
+        </section>        
 
-        <section id="about" class="debug about bg-green d-flex">
-            <h1>about</h1>
+        <section id="about" class="debug bg-green d-flex">
+            <h1 class="my-bold">about</h1>
             <div class="debug container">
-                <div class="debug row">
-                    <div class="debug h100 col-xs-12 col-md-6">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, ipsum.
+                <div class="debug row row-cols-1 row-cols-lg-2 gy-4">
+                    <div class="debug col">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, quibusdam commodi! Dolorum, itaque! Itaque eaque accusamus saepe eum, repellat libero officia nemo ut in ducimus voluptatibus corporis. Delectus quod natus aliquid adipisci quia ab explicabo modi ratione fuga! Doloremque quod, necessitatibus delectus porro sint dignissimos culpa consequatur vero voluptatem voluptates atque hic adipisci fuga ipsa sed libero alias architecto, in totam explicabo nesciunt officiis voluptate? Recusandae delectus non quos iure minus, sunt suscipit architecto esse? 
                     </div>
-                    <div class="debug h100 col-xs-12 col-md-6">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, ipsum.
+                    <div class="debug col">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi nemo quis corporis similique, autem nulla dicta a ducimus itaque minus velit rerum facilis earum perspiciatis repellat dolorem alias tenetur! Necessitatibus, voluptatum id libero officiis veniam nostrum esse quae deleniti totam maiores quo iure cumque laudantium nisi illo nulla perferendis debitis assumenda a atque accusamus velit odit! Provident, neque libero beatae assumenda ipsum, eaque dignissimos molestias officiis maiores hic quos? Suscipit est tenetur harum explicabo asperiores facilis dolorum error? Laudantium, beatae perferendis? Rem, deserunt a. Quidem accusantium totam, reiciendis ullam vero earum officia repellendus a voluptate, quasi omnis, non magnam eius!
                     </div>
                 </div>
             </div>
-            <button>
-                Download
+            <button class="btn my-btn">
+                <i class="fa-solid fa-download"></i>
+                <span>Download</span>
             </button>
         </section>
         
