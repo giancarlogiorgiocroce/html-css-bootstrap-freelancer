@@ -1,14 +1,12 @@
 /* Impaginazione */
-.position-relative{
-    position: relative;
-}
-
-.flex-static{
-    flex-shrink: 0;
-}
-
 .my-bold{
     font-weight: 600;
+}
+
+.my-container{
+    width: 70vw;
+    justify-self: center;
+    align-self: center;
 }
 
 .my-btn{
@@ -30,17 +28,4 @@
 }
 
 /* Debug */
-/* .debug{
-    background-color: rgba(0, 255, 0, 0.2);
-    border: 1px solid white;
-} */
-
-.h100{
-    height: 100px;
-}
-.h300{
-    height: 300px;
-}
-.h500{
-    height: 500px;
-}
+/* .debug{    background-color: rgba(0, 255, 0, 0.2);    border: 1px solid white;} */

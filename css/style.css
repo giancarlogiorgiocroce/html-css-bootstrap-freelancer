@@ -67,9 +67,40 @@ section{
 }
 
 /* SECTION CONTACT ME */
-div.form{
-    width: 60vw;
+#contact .form{
+    width: 100%;
 }
+
+#contact input,
+#contact textarea{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid grey;
+
+    padding: 10px 0;
+}
+
+#contact input:nth-child(4){
+    height: 200px;
+}
+
+input:placeholder-shown{
+    color: black;
+    text-align: start;
+}
+
+#contact .my-btn{
+    color: white;
+    background-color: var(--bg-green);
+}
+
+#contact .my-btn:hover{
+    background-color: rgb(31, 131, 107);
+}
+
+/* #contact .my-btn{
+
+} */
 /*
     /MAIN
 */
